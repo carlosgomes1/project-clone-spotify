@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
+    <title> Hello, world! </title>
+    <link rel="icon" href="imagens/favicon.png">
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,11 +14,82 @@
     <!-- Font awesome icons link -->
     <script src="https://kit.fontawesome.com/487bf931aa.js" crossorigin="anonymous"></script>
 
-    <title> Hello, world! </title>
+    <!-- Estilo css personalizado -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- HTML5 Shiv -->
+    <!--[if lt IE 9]>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
   </head>
   <body>
 
-    <h1 class="display-2"> Hello, world! </h1>
+    <header> <!-- Inicio do cabeçalho -->
+      <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente"> <!-- Inicio da barra de navegação --> 
+        <div class="container"> <!-- Inicio container -->
+
+          <!-- Logo -->
+          <a href="index.html" class="navbar-brand">
+            <img src="imagens/spotify.svg" width="142">
+          </a>
+          <!-- Fim logo -->
+
+          <!-- Menu hamburguer -->
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-header">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+          <!-- fim menu hamburguer -->
+
+          <!-- Inicio da navbar -->
+          <div class="collapse navbar-collapse" id="navbar-header"> 
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="" class="nav-link"> Premium </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link"> Ajuda </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link"> Baixar </a>
+              </li>
+
+              <li class="nav-item divisor">
+              </li>
+
+              <li class="nav-item">
+                <a href="" class="nav-link"> Inscrever-se </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link"> Entrar </a>
+              </li>
+            </ul>
+          </div> 
+          <!-- fim da navbar -->
+
+        </div> <!-- Fim container -->
+      </nav> <!-- Fim barra de navegação -->
+    </header> <!-- Fim cabeçalho -->
+
+    <section id="home" class="d-flex"> <!-- Inicio seção principal -->
+      <div class="container align-self-center"> <!-- Inicio container -->
+        <div class="row"> <!-- Inicio row principal -->
+          <div class="col-md-12 capa"> 
+
+            <h1> Música para todos. </h1>
+            <a href="" class="btn btn-lg btn-custom btn-roxo">
+              Aproveite o Spotify Free
+            </a>
+
+            <a href="" class="btn btn-lg btn-custom btn-branco">
+              Obter o Spotify Premium
+            </a>
+
+          </div>
+        </div> <!-- fim row principal -->
+      </div> <!-- fim container -->
+    </section> <!-- fim seção principal -->
+
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
