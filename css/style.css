@@ -9,7 +9,7 @@ body {
                 url(../imagens/ruido.png),
                 linear-gradient(50deg, #ff4169, #7c26f8);
     background-attachment: fixed;
-    font-family: inherit;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /*       BARRA DE NAVEGAÇÃO      */
@@ -42,6 +42,10 @@ nav.navbar-transparente {
 
 .capa {
     text-align: center;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
 }
 
 .btn-custom {
@@ -144,7 +148,7 @@ footer ul li {
 /*                  TIPOGRAFIA                 */
 
 h1 {
-    font-weight: 900;
+    font-weight: 600;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
